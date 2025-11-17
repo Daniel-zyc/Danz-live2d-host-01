@@ -4,7 +4,7 @@
  */
 
 // live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://cdn.jsdelivr.net/gh/Daniel-zyc/Danz-live2d-host-01@v0.0.1/';
+const live2d_path = 'https://cdn.jsdelivr.net/gh/Daniel-zyc/Danz-live2d-host-01@v0.0.2/';
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
