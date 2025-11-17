@@ -54,7 +54,7 @@
 		"time_to_max_speed": 0.08,
 		"face_max_angle": 20,
 		"min_scale": 0.1,
-		"width": 0.3,
-		"height": 0.3
+		"width": 300,
+		"height": 300
 	}
 }
