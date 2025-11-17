@@ -1,11 +1,13 @@
 {
   "models": [
     "xiaomai",
-    "xiaomai2",
     "seele",
     "sakura",
     "rem",
-    "redeemer"
+    "redeemer",
+    "mashiro1",
+    "mashiro2",
+    "mashiro3"
   ],
   "messages": [
     "嘿嘿嘿，是小埋呀~",
