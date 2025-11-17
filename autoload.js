@@ -4,7 +4,7 @@
  */
 
 // live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://cdn.jsdelivr.net/gh/Daniel-zyc/Danz-live2d-host-01@main/';
+const live2d_path = 'https://cdn.jsdelivr.net/gh/Daniel-zyc/Danz-live2d-host-01@latest/';
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -50,7 +50,7 @@ function loadExternalResource(url, type) {
   // 配置选项的具体用法见 README.md
   initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
-    cdnPath: 'https://cdn.jsdelivr.net/gh/Daniel-zyc/Danz-live2d-host-01@main/',
+    cdnPath: live2d_path,
     cubism2Path: live2d_path + 'live2d.min.js',
     cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
